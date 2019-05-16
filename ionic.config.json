@@ -1,5 +1,7 @@
 {
   "name": "uspaceapp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
