@@ -13,17 +13,19 @@ import { AlertService } from './services/alert.service';
 export class AppComponent {
   public appPages = [
       {
-          title: 'Dashboard',
-          url: '/dashboard',
-          icon: 'home'
+          title: 'Bienvenue',
+          url: '/home',
+          icon: 'planet'
       },
+
+      {
+          title: 'Tableau de bord',
+          url: '/dashboard',
+          icon: 'speedometer'
+      },
+
     {
-      title: 'Home',
-      url: '/home',
-      icon: 'home'
-    },
-    {
-      title: 'List',
+      title: 'Les cartes',
       url: '/list',
       icon: 'list'
     }

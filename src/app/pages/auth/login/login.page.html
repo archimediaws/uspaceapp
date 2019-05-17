@@ -1,7 +1,7 @@
-<ion-header>
+<ion-header >
   <ion-toolbar>
-    <ion-button color="light" (click)="dismissLogin()">Close</ion-button>
-    <ion-title>Login</ion-title>
+    <ion-button color="light" (click)="dismissLogin()">Fermer</ion-button>
+    <ion-title>Connexion à mon compte Uspace</ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content padding>
@@ -12,14 +12,14 @@
     </ion-item>
 
     <ion-item>
-      <ion-label position="floating">Password</ion-label>
+      <ion-label position="floating">Mot de passe</ion-label>
       <ion-input ngModel type="password" name="password"></ion-input>
     </ion-item>
 
-    <p text-right>Forgot Password?</p>
+    <!--<p text-right>Mot de passe perdu ?</p>-->
 
-    <ion-button type="submit" expand="full" color="primary">Login</ion-button>
+    <ion-button type="submit" expand="full" color="primary">Connexion</ion-button>
   </form>
-  <p text-center>Don't have a account?</p>
-  <ion-button expand="full" color="danger" (click)="registerModal()">Register</ion-button>
+  <p text-center>Pas encore de compte ?</p>
+  <ion-button expand="full" class="fancy-button" (click)="registerModal()">Inscription</ion-button>
 </ion-content>

@@ -1,28 +1,28 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <!-- <ion-title>landing</ion-title> -->
   </ion-toolbar>
 </ion-header>
-<ion-content>
+<ion-content class="bg">
   <ion-card class="welcome-card">
-    <ion-img src="/assets/shapes.svg"></ion-img>
-    <ion-card-header>
-      <ion-card-subtitle>Get Started</ion-card-subtitle>
-      <ion-card-title>Welcome to Ionic 4 Auth</ion-card-title>
+    <ion-img src="/assets/bg2.jpg"></ion-img>
+    <ion-card-header text-center>
+      <ion-card-subtitle color="light">Bienvenue sur </ion-card-subtitle>
+      <ion-card-title color="light">Uspace</ion-card-title>
     </ion-card-header>
-    <ion-card-content>
-      <p>Starting point for Ionic 4 Application with Authentication.</p>
+    <ion-card-content text-center>
+      <p color="light">Créez votre espace et publier vos cartes sur Uspace </p>
     </ion-card-content>
   </ion-card>
 </ion-content>
 <ion-footer>
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-row>
       <ion-col>
-        <ion-button color="primary" expand="full" color="primary" (click)="login()">Login</ion-button>
+        <ion-button color="primary" expand="full"  (click)="login()">Connexion</ion-button>
       </ion-col>
       <ion-col>
-        <ion-button color="primary" expand="full" color="danger" (click)="register()">Register</ion-button>
+        <ion-button class="fancy-button" expand="full"  (click)="register()">Inscription</ion-button>
       </ion-col>
     </ion-row>
   </ion-toolbar>

@@ -4,6 +4,6 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class EnvService {
-    API_URL = 'http://localhost/laratest/uspace/public/api/';
+    API_URL = 'https://webapp.stephaneescobar.com/api/';
   constructor() { }
 }

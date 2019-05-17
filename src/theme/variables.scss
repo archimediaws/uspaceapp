@@ -1,6 +1,17 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
+
+
+/* Set the background on an ion-button with the .fancy-button class */
+.fancy-button {
+  --background: #f55127;
+}
+.bg{
+  --background: #383a3e;
+}
+
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
